@@ -1,0 +1,60 @@
+<!-- DE ESTA MANERA DE PONEN COMENTARIOS EN HTML
+HTTP: Hypertext Transfer Protocol, Sigue un esquema de petición-respuesta entre un cliente y un servidor.
+HTTPS (HyperText Transport Protocol Secure)
+www: World Wide Web
+URL, uniform resource locator), son siempre únicas
+	protocolo://maquina:puerto/camino/fichero
+	máquina es el nombre o la IP del servidor al cual nos queremos conectar, se emplea un nombre (como Google.com) que es traducido a una IP por el servicio de DNS.
+	Separado por ":" el puerto. Por defecto, cada protocolo tiene un puerto. Por ejemplo: http-> puerto 80 y https-> puerto 443.
+	
+Los programadores se encargan del "Back end"-> el servidor. Y los diseñadores se encargan del "Front end", la parte del cliente, lo que el usuario vee en el navegador.
+
+
+-->
+
+<html> <!-- Etiqueta donde inicia el HTML (HyperText Markup Language) -->
+	<head> <!-- Etiqueta de Cabecera, 
+			Toda la información que se incluye en la cabecera -->
+        <title>Santiago Ramírez Elizondo</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/> <!--Con esta línea hacemos que se muestren las tildes, ñ y caracteres especiales -->
+		<script type="text/javascript" src="https://me.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=hdMwjIR7oKlaor32rTH7sI1ff7McoeTm6vBPFTQ7iOhlkLO8cyQQJ1bV9KQqCgGSXVyJIQpygk7xMGbjwfmJFW8rWN0_U2DhtxfluwXHiNY8PFqvVmz71hqba4ASzzoLuioUusgAoLE05yffot2tQr5y7wPQGOmjxpOSy9FeF4_KnpT3MS4SFhpJnHkD-WFG3kMusteu4q7lQOBk0B7PwBma2HELFuq_r5vFkO0O4ONQf9kXU8MWuDhAz4a_hl1IepYUFYinRF3A29_KfmqGGyWEKrrRegFmT5IbFta7kE9H0BfTtf-XtbauBIqcbCUuF0X_4LkpqZm8x1-pSDAV5w" charset="UTF-8"></script><link rel="stylesheet" crossorigin="anonymous" href="https://me.kis.v2.scr.kaspersky-labs.com/E3E8934C-235A-4B0E-825A-35A08381A191/abn/main.css?attr=aHR0cHM6Ly9taXVsYXRpbmFhYy1teS5zaGFyZXBvaW50LmNvbS9wZXJzb25hbC9hZHJpYW5hX3J1YmlvX3VsYXRpbmFfbmV0L19sYXlvdXRzLzE1L2Rvd25sb2FkLmFzcHg_U291cmNlVXJsPSUyZnBlcnNvbmFsJTJmYWRyaWFuYV9ydWJpb191bGF0aW5hX25ldCUyZkRvY3VtZW50cyUyZlByb2dyYW1hY2klQzMlQjNuJTIwSVYlMmZQcmluY2lwYWxlcyUyMGV0aXF1ZXRhcyUyMEhUTUwuaHRtbA"/>
+	</head>
+	
+	<body>
+		
+        <form name="Formulario" method="POST" action="">
+            <!-- name: indica le nombre del formulario method: la manera en la que se van a llevar los datos del formulario (POST ó GET)
+    Con el "action" indico que se va a hacer con el formulario-->
+            Nombre: <input type="text" name="nombre" value="" required placeholder="Digite su nombre PorFavor"> <!-- el valor de "name" es el que deben de recoger y value es el contenido -->
+            <br /><br />
+
+            Cédula: <input type="number" name="cedula" value="" required>
+            <br /><br />
+
+            Fecha Nacimiento: <input type="date" name="nacimiento" value="" required>
+            <br /><br />
+
+            <fieldset>
+                <legend>Género:</legend>
+                <div>
+                    <input type="radio" id="opcion1" name="genero" value="Masculino" required/>
+                    <label for="opcion1">Masculino</label>
+                    <input type="radio" id="opcion2" name="genero" value="Femenino" required/>
+                    <label for="opcion2">Femenino</label>
+                </div>
+            </fieldset>
+            <br /><br />
+
+            Correo: <input type="email" name="correo" value="" required><br /><br />
+
+            
+            Telefono: <input type="tel" id="telefono" name="Telefono" pattern="[0-9]{4}-[0-9]{4}" required><br /><br />
+            <!-- Botones de aceptar-->
+            <input value="Registrar" type="submit" />	<!-- recuerden que Siempre debe de ser tipo "submit" para que funcione el action	-->
+            <input value="Cancelar" type="reset" /> <!-- limpia el contenido del formulario  -->
+
+
+        </form>	<!-- final de formulario -->
+
+	</body>
+</HTML>  <!-- Etiqueta donde finaliza el HTML -->
