@@ -1,0 +1,119 @@
+<!-- DE ESTA MANERA DE PONEN COMENTARIOS EN HTML
+HTTP: Hypertext Transfer Protocol, Sigue un esquema de petición-respuesta entre un cliente y un servidor.
+HTTPS (HyperText Transport Protocol Secure)
+www: World Wide Web
+URL, uniform resource locator), son siempre únicas
+	protocolo://maquina:puerto/camino/fichero
+	máquina es el nombre o la IP del servidor al cual nos queremos conectar, se emplea un nombre (como Google.com) que es traducido a una IP por el servicio de DNS.
+	Separado por ":" el puerto. Por defecto, cada protocolo tiene un puerto. Por ejemplo: http-> puerto 80 y https-> puerto 443.
+	
+Los programadores se encargan del "Back end"-> el servidor. Y los diseñadores se encargan del "Front end", la parte del cliente, lo que el usuario vee en el navegador.
+
+
+-->
+
+<html> <!-- Etiqueta donde inicia el HTML (HyperText Markup Language) -->
+	<head> <!-- Etiqueta de Cabecera, 
+			Toda la información que se incluye en la cabecera -->
+        <title>Tarea1 - Santiago Ramírez Elizondo</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/> <!--Con esta línea hacemos que se muestren las tildes, ñ y caracteres especiales -->
+		<script type="text/javascript" src="https://me.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=hdMwjIR7oKlaor32rTH7sI1ff7McoeTm6vBPFTQ7iOhlkLO8cyQQJ1bV9KQqCgGSXVyJIQpygk7xMGbjwfmJFW8rWN0_U2DhtxfluwXHiNY8PFqvVmz71hqba4ASzzoLuioUusgAoLE05yffot2tQr5y7wPQGOmjxpOSy9FeF4_KnpT3MS4SFhpJnHkD-WFG3kMusteu4q7lQOBk0B7PwBma2HELFuq_r5vFkO0O4ONQf9kXU8MWuDhAz4a_hl1IepYUFYinRF3A29_KfmqGGyWEKrrRegFmT5IbFta7kE9H0BfTtf-XtbauBIqcbCUuF0X_4LkpqZm8x1-pSDAV5w" charset="UTF-8"></script><link rel="stylesheet" crossorigin="anonymous" href="https://me.kis.v2.scr.kaspersky-labs.com/E3E8934C-235A-4B0E-825A-35A08381A191/abn/main.css?attr=aHR0cHM6Ly9taXVsYXRpbmFhYy1teS5zaGFyZXBvaW50LmNvbS9wZXJzb25hbC9hZHJpYW5hX3J1YmlvX3VsYXRpbmFfbmV0L19sYXlvdXRzLzE1L2Rvd25sb2FkLmFzcHg_U291cmNlVXJsPSUyZnBlcnNvbmFsJTJmYWRyaWFuYV9ydWJpb191bGF0aW5hX25ldCUyZkRvY3VtZW50cyUyZlByb2dyYW1hY2klQzMlQjNuJTIwSVYlMmZQcmluY2lwYWxlcyUyMGV0aXF1ZXRhcyUyMEhUTUwuaHRtbA"/>
+	    <style>
+            body {
+                background-image: url(https://content.skyscnr.com/m/545df6a65e78d587/original/GettyImages-158433081_doc.jpg?resize=1800px:1800px&quality=100); /* ruta de tu imagen */
+                background-size: cover; /* ajusta la imagen al tamaño de pantalla */
+                background-repeat: no-repeat;
+                background-position: center center;
+                font-family: 'Times New Roman', sans-serif; /* ejemplo de fuente base */
+            }
+        </style>
+    </head>
+	
+	<body>
+        <h1 style="color: #2f3ac3; font-style: italic;"> Registro de Vivienda: </h1>
+        <form name="Formulario" method="POST" action="">
+            <!-- name: indica le nombre del formulario method: la manera en la que se van a llevar los datos del formulario (POST ó GET)
+            Con el "action" indico que se va a hacer con el formulario-->
+
+            <h3>Nombre del dueño de la propiedad:<h3> <!--Dueño de la persona-->
+            <input type="text" name="nombre" value="" required placeholder="Digite su nombre completo" style="font-size: 16px; width: 500px;"> <!-- el valor de "name" es el que deben de recoger y value es el contenido -->
+            <br /><br />
+
+            <h3>Cédula:<h3> <!--Identificador de la persona-->
+            <input type="number" name="identificador" value="" required  placeholder="Digite su cédula" style="font-size: 16px; width: 500px;">
+            <br /><br />
+
+            <h3>Precio en dolares ($):<h3> <!--Precio en dolares-->
+            <input type="number" name="precio" value="" required placeholder="Establezca un precio a la propiedad en $" style="font-size: 16px; width: 500px;">
+            <br /><br /><br />
+
+            <fieldset><!--Radiobutton para elegir el estado de remate de la propiedad-->
+                <legend> ¿La propiedad se encuentra en remate?:</legend>
+                <div>
+                    <input type="radio" name="genero" value="si" required/>
+                    <label> Si</label>
+                    <input type="radio" name="genero" value="no" required/>
+                    <label> No</label>
+                </div>
+            </fieldset>
+            <br />
+
+            <h3>Tamaño de la propiedad (m<sup>2</sup>):<h3> <!--Tamaño de la vivienda en metros-->
+            <input type="number" name="metros" value="" required placeholder="Establezca un tamaño en metros cuadrados" style="font-size: 16px; width: 500px;">
+            <br /><br /><br />
+
+            <fieldset><!--checkbox para elegir extras de la propiedad-->
+            <legend> Extras para su propiedad (Marque las que considere)</legend>
+            <div>
+                <input type="checkbox" name="extras" value="Garaje" />
+                <label> Garaje</label>
+                <input type="checkbox" name="extras" value="Piscina" />
+                <label> Piscina</label>
+                <input type="checkbox" name="extras" value="Jacuzzi" />
+                <label> Jacuzzi</label>
+                <input type="checkbox" name="extras" value="Jardín" />
+                <label> Jardín</label>
+                <input type="checkbox" name="extras" value="Seguridad" />
+                <label> Sistemas de alarmas, videovigilancia y acceso controlado</label>
+                <input type="checkbox" name="extras" value="Automatizacion" />
+                <label> Sistemas de control de iluminación y  temperatura</label>
+                <input type="checkbox" name="extras" value="Energia_Renovable" />
+                <label>  Paneles solares</label>
+            </div>
+            </fieldset>
+            <br />
+
+            <h3>Teléfono de contacto:<h3> <!--Telefono de la persona-->
+            <input type="tel" name="telefono" value="" required  placeholder="Digite su número de teleféfono" style="font-size: 16px; width: 500px;">
+            <br /><br />
+
+            <h3>Correo electrónico:<h3>
+            <!--Correo de la persona-->
+            <input type="email" name="email" value="" required placeholder="Digite su dirección de correo electrónico" style="font-size: 16px; width: 500px;">
+            <br /><br />
+
+            <h3>Provincia donde está ubicada:<h3><!--select desplegable para elegir provincia donde esta ubicada-->
+            <select name="provincia" required style="font-size: 16px; width: 250px; height: 40px;">
+                <option value="" disabled selected>Seleccione una provincia</option>
+                <option value="alajuela">Alajuela</option>
+                <option value="heredia">Heredia</option>
+                <option value="sanjose">San José</option>
+                <option value="cartago">Cartago</option>
+                <option value="limon">Limón</option>
+                <option value="guanacaste">Guanacaste</option>
+                <option value="puntarenas">Puntarenas</option>
+            </select>
+            <br /><br />
+
+            <h3>Dirección Exacta:<h3><!--Dirección exacta de la persona-->
+            <textarea name="direccion" required placeholder="Digite su dirección exacta" style="font-size: 16px; width: 500px; height: 100px; resize: none;"></textarea>
+            <br /><br />
+
+            <input value="Registrar" type="submit" style="font-size: 16px"/>	<!-- recuerden que Siempre debe de ser tipo "submit" para que funcione el action	-->
+            <input value="Cancelar" type="reset" style="font-size: 16px"/> <!-- limpia el contenido del formulario  -->        
+
+
+        </form>	<!-- final de formulario -->
+
+	</body>
+</HTML>  <!-- Etiqueta donde finaliza el HTML -->
