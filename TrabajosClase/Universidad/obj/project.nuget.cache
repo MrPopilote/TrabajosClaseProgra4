@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "5L40SLFRsXw=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Popi1\\OneDrive\\Escritorio\\Universidad\\Universidad.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Popi1\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.16\\microsoft.netcore.app.host.win-x64.8.0.16.nupkg.sha512"
+  ],
+  "logs": []
+}

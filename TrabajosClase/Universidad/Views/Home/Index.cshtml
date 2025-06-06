@@ -1,0 +1,24 @@
+﻿@{
+    ViewData["Title"] = "1era Web";
+    string nombre = "Santiago Ramirez Elizondo";
+
+}
+<!--El arroba indica codigo de c#-->
+<div class="text-center">
+    <h1 class="display-4">Welcome @nombre</h1>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+<h3 >Tabla de multiplicar del 8:</h3>
+
+<body>
+    @{
+        int numero = 8;
+
+        for (int i = 0; i <= 10; i++)
+        {
+            <p> @numero * @i = @( i * numero)</p>
+
+         }
+    }
+</body>

@@ -1,0 +1,91 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Popi1\\OneDrive\\Escritorio\\Universidad\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9ADB5AF9-5935-4D5B-BE85-CA67DF4DEFC0}|Universidad.csproj|c:\\users\\popi1\\onedrive\\escritorio\\universidad\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9ADB5AF9-5935-4D5B-BE85-CA67DF4DEFC0}|Universidad.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ADB5AF9-5935-4D5B-BE85-CA67DF4DEFC0}|Universidad.csproj|c:\\users\\popi1\\onedrive\\escritorio\\universidad\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9ADB5AF9-5935-4D5B-BE85-CA67DF4DEFC0}|Universidad.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Popi1\\OneDrive\\Documentos\\GitHub\\CursoProgra4\\Tareas\\Tarea1.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ADB5AF9-5935-4D5B-BE85-CA67DF4DEFC0}|Universidad.csproj|c:\\users\\popi1\\onedrive\\escritorio\\universidad\\views\\home\\carreras.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9ADB5AF9-5935-4D5B-BE85-CA67DF4DEFC0}|Universidad.csproj|solutionrelative:views\\home\\carreras.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Carreras.cshtml",
+              "DocumentMoniker": "C:\\Users\\Popi1\\OneDrive\\Escritorio\\Universidad\\Views\\Home\\Carreras.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Carreras.cshtml",
+              "ToolTip": "C:\\Users\\Popi1\\OneDrive\\Escritorio\\Universidad\\Views\\Home\\Carreras.cshtml",
+              "RelativeToolTip": "Views\\Home\\Carreras.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-06T02:57:08.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Tarea1.html",
+              "DocumentMoniker": "C:\\Users\\Popi1\\OneDrive\\Documentos\\GitHub\\CursoProgra4\\Tareas\\Tarea1.html",
+              "RelativeDocumentMoniker": "..\\..\\Documentos\\GitHub\\CursoProgra4\\Tareas\\Tarea1.html",
+              "ToolTip": "C:\\Users\\Popi1\\OneDrive\\Documentos\\GitHub\\CursoProgra4\\Tareas\\Tarea1.html",
+              "RelativeToolTip": "..\\..\\Documentos\\GitHub\\CursoProgra4\\Tareas\\Tarea1.html",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABwAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-06-06T02:45:51.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Popi1\\OneDrive\\Escritorio\\Universidad\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Popi1\\OneDrive\\Escritorio\\Universidad\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAB8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-06T02:06:57.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Popi1\\OneDrive\\Escritorio\\Universidad\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Popi1\\OneDrive\\Escritorio\\Universidad\\Views\\Home\\Index.cshtml*",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-06T01:03:04.754Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
