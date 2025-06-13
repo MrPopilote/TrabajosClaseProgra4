@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Popi1\\OneDrive\\Escritorio\\Universidad\\Universidad.csproj": {}
+    "C:\\Users\\Popi1\\OneDrive\\Documentos\\GitHub\\CursoProgra4\\TrabajosClase\\Universidad\\Universidad.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Popi1\\OneDrive\\Escritorio\\Universidad\\Universidad.csproj": {
+    "C:\\Users\\Popi1\\OneDrive\\Documentos\\GitHub\\CursoProgra4\\TrabajosClase\\Universidad\\Universidad.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Popi1\\OneDrive\\Escritorio\\Universidad\\Universidad.csproj",
+        "projectUniqueName": "C:\\Users\\Popi1\\OneDrive\\Documentos\\GitHub\\CursoProgra4\\TrabajosClase\\Universidad\\Universidad.csproj",
         "projectName": "Universidad",
-        "projectPath": "C:\\Users\\Popi1\\OneDrive\\Escritorio\\Universidad\\Universidad.csproj",
+        "projectPath": "C:\\Users\\Popi1\\OneDrive\\Documentos\\GitHub\\CursoProgra4\\TrabajosClase\\Universidad\\Universidad.csproj",
         "packagesPath": "C:\\Users\\Popi1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Popi1\\OneDrive\\Escritorio\\Universidad\\obj\\",
+        "outputPath": "C:\\Users\\Popi1\\OneDrive\\Documentos\\GitHub\\CursoProgra4\\TrabajosClase\\Universidad\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -49,6 +49,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.5.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

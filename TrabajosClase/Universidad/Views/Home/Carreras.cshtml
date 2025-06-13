@@ -20,95 +20,88 @@
 
         <h3>Nombre del dueño de la propiedad:<h3><!--Dueño de la persona-->
         <input type="text" name="nombre" value="" required placeholder="Digite su nombre completo" style="font-size: 16px; width: 500px;"> <!-- el valor de "name" es el que deben de recoger y value es el contenido -->
-       <br /><br />
+        <br /><br />
 
-                <h3>
-                    Cédula:<h3>
-                        <!--Identificador de la persona-->
-                        <input type="number" name="identificador" value="" required placeholder="Digite su cédula" style="font-size: 16px; width: 500px;">
-                        <br /><br />
+        <h3>Cédula:<h3>
+        <!--Identificador de la persona-->
+        <input type="number" name="identificador" value="" required placeholder="Digite su cédula" style="font-size: 16px; width: 500px;">
+        <br /><br />
 
-                        <h3>
-                            Precio en dolares ($):<h3>
-                                <!--Precio en dolares-->
-                                <input type="number" name="precio" value="" required placeholder="Establezca un precio a la propiedad en $" style="font-size: 16px; width: 500px;">
-                                <br /><br /><br />
+        <h3> Precio en dolares ($):<h3>
+        <!--Precio en dolares-->
+        <input type="number" name="precio" value="" required placeholder="Establezca un precio a la propiedad en $" style="font-size: 16px; width: 500px;">
+        <br /><br /><br />
 
-                                <fieldset>
-                                    <!--Radiobutton para elegir el estado de remate de la propiedad-->
-                                    <legend> ¿La propiedad se encuentra en remate?:</legend>
-                                    <div>
-                                        <input type="radio" name="genero" value="si" required />
-                                        <label> Si</label>
-                                        <input type="radio" name="genero" value="no" required />
-                                        <label> No</label>
-                                    </div>
-                                </fieldset>
-                                <br />
+        <fieldset>
+            <!--Radiobutton para elegir el estado de remate de la propiedad-->
+        <legend> ¿La propiedad se encuentra en remate?:</legend>
+        <div>
+        <input type="radio" name="genero" value="si" required />
+        <label> Si</label>
+        <input type="radio" name="genero" value="no" required />
+        <label> No</label>
+        </div>
+        </fieldset>
+        <br />
 
-                                <h3>
-                                    Tamaño de la propiedad (m<sup>2</sup>):<h3>
-                                        <!--Tamaño de la vivienda en metros-->
-                                        <input type="number" name="metros" value="" required placeholder="Establezca un tamaño en metros cuadrados" style="font-size: 16px; width: 500px;">
-                                        <br /><br /><br />
+        <h3>Tamaño de la propiedad (m<sup>2</sup>):<h3>
+        <!--Tamaño de la vivienda en metros-->
+        <input type="number" name="metros" value="" required placeholder="Establezca un tamaño en metros cuadrados" style="font-size: 16px; width: 500px;">
+        <br /><br /><br />
 
-                                        <fieldset>
-                                            <!--checkbox para elegir extras de la propiedad-->
-                                            <legend> Extras para su propiedad (Marque las que considere)</legend>
-                                            <div>
-                                                <input type="checkbox" name="extras" value="Garaje" />
-                                                <label> Garaje</label>
-                                                <input type="checkbox" name="extras" value="Piscina" />
-                                                <label> Piscina</label>
-                                                <input type="checkbox" name="extras" value="Jacuzzi" />
-                                                <label> Jacuzzi</label>
-                                                <input type="checkbox" name="extras" value="Jardín" />
-                                                <label> Jardín</label>
-                                                <input type="checkbox" name="extras" value="Seguridad" />
-                                                <label> Sistemas de alarmas, videovigilancia y acceso controlado</label>
-                                                <input type="checkbox" name="extras" value="Automatizacion" />
-                                                <label> Sistemas de control de iluminación y  temperatura</label>
-                                                <input type="checkbox" name="extras" value="Energia_Renovable" />
-                                                <label>  Paneles solares</label>
-                                            </div>
-                                        </fieldset>
-                                        <br />
+        <fieldset>
+        <!--checkbox para elegir extras de la propiedad-->
+        <legend> Extras para su propiedad (Marque las que considere)</legend>
+            <div>
+                <input type="checkbox" name="extras" value="Garaje" />
+                <label> Garaje</label>
+                <input type="checkbox" name="extras" value="Piscina" />
+                <label> Piscina</label>
+                <input type="checkbox" name="extras" value="Jacuzzi" />
+                <label> Jacuzzi</label>
+                <input type="checkbox" name="extras" value="Jardín" />
+                <label> Jardín</label>
+                <input type="checkbox" name="extras" value="Seguridad" />
+                <label> Sistemas de alarmas, videovigilancia y acceso controlado</label>
+                <input type="checkbox" name="extras" value="Automatizacion" />
+                <label> Sistemas de control de iluminación y  temperatura</label>
+                <input type="checkbox" name="extras" value="Energia_Renovable" />
+                <label>  Paneles solares</label>
+                </div>
+        </fieldset>
+        <br />
 
-                                        <h3>
-                                            Teléfono de contacto:<h3>
-                                                <!--Telefono de la persona-->
-                                                <input type="tel" name="telefono" value="" required placeholder="Digite su número de teleféfono" style="font-size: 16px; width: 500px;">
-                                                <br /><br />
+        <h3>Teléfono de contacto:<h3>
+        <!--Telefono de la persona-->
+        <input type="tel" name="telefono" value="" required placeholder="Digite su número de teleféfono" style="font-size: 16px; width: 500px;">
+        <br /><br />
 
-                                                <h3>
-                                                    Correo electrónico:<h3>
-                                                        <!--Correo de la persona-->
-                                                        <input type="email" name="email" value="" required placeholder="Digite su dirección de correo electrónico" style="font-size: 16px; width: 500px;">
-                                                        <br /><br />
+        <h3>Correo electrónico:<h3>
+        <!--Correo de la persona-->
+        <input type="email" name="email" value="" required placeholder="Digite su dirección de correo electrónico" style="font-size: 16px; width: 500px;">
+        <br /><br />
 
-                                                        <h3>
-                                                            Provincia donde está ubicada:<h3>
-                                                                <!--select desplegable para elegir provincia donde esta ubicada-->
-                                                                <select name="provincia" required style="font-size: 16px; width: 250px; height: 40px;">
-                                                                    <option value="" disabled selected>Seleccione una provincia</option>
-                                                                    <option value="alajuela">Alajuela</option>
-                                                                    <option value="heredia">Heredia</option>
-                                                                    <option value="sanjose">San José</option>
-                                                                    <option value="cartago">Cartago</option>
-                                                                    <option value="limon">Limón</option>
-                                                                    <option value="guanacaste">Guanacaste</option>
-                                                                    <option value="puntarenas">Puntarenas</option>
-                                                                </select>
-                                                                <br /><br />
+        <h3>Provincia donde está ubicada:<h3>
+        <!--select desplegable para elegir provincia donde esta ubicada-->
+        <select name="provincia" required style="font-size: 16px; width: 250px; height: 40px;">
+            <option value="" disabled selected>Seleccione una provincia</option>
+            <option value="alajuela">Alajuela</option>
+            <option value="heredia">Heredia</option>
+            <option value="sanjose">San José</option>
+            <option value="cartago">Cartago</option>
+            <option value="limon">Limón</option>
+            <option value="guanacaste">Guanacaste</option>
+            <option value="puntarenas">Puntarenas</option>
+        </select>
+        <br /><br />
 
-                                                                <h3>
-                                                                    Dirección Exacta:<h3>
-                                                                        <!--Dirección exacta de la persona-->
-                                                                        <textarea name="direccion" required placeholder="Digite su dirección exacta" style="font-size: 16px; width: 500px; height: 100px; resize: none;"></textarea>
-                                                                        <br /><br />
+       <h3>Dirección Exacta:<h3>
+        <!--Dirección exacta de la persona-->
+        <textarea name="direccion" required placeholder="Digite su dirección exacta" style="font-size: 16px; width: 500px; height: 100px; resize: none;"></textarea>
+        <br /><br />
 
-                                                                        <input value="Registrar" type="submit" style="font-size: 16px" />	<!-- recuerden que Siempre debe de ser tipo "submit" para que funcione el action	-->
-                                                                        <input value="Cancelar" type="reset" style="font-size: 16px" /> <!-- limpia el contenido del formulario  -->
+        <input value="Registrar" type="submit" style="font-size: 16px" />	<!-- recuerden que Siempre debe de ser tipo "submit" para que funcione el action	-->
+        <input value="Cancelar" type="reset" style="font-size: 16px" /> <!-- limpia el contenido del formulario  -->
 
 
     </form>	<!-- final de formulario -->
