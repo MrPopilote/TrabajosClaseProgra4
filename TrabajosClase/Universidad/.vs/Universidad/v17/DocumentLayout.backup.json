@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Popi1\\OneDrive\\Documentos\\GitHub\\CursoProgra4\\TrabajosClase\\Universidad\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9ADB5AF9-5935-4D5B-BE85-CA67DF4DEFC0}|Universidad.csproj|c:\\users\\popi1\\onedrive\\documentos\\github\\cursoprogra4\\trabajosclase\\universidad\\views\\carrera\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9ADB5AF9-5935-4D5B-BE85-CA67DF4DEFC0}|Universidad.csproj|solutionrelative:views\\carrera\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9ADB5AF9-5935-4D5B-BE85-CA67DF4DEFC0}|Universidad.csproj|c:\\users\\popi1\\onedrive\\documentos\\github\\cursoprogra4\\trabajosclase\\universidad\\views\\carrera\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9ADB5AF9-5935-4D5B-BE85-CA67DF4DEFC0}|Universidad.csproj|solutionrelative:views\\carrera\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ADB5AF9-5935-4D5B-BE85-CA67DF4DEFC0}|Universidad.csproj|c:\\users\\popi1\\onedrive\\documentos\\github\\cursoprogra4\\trabajosclase\\universidad\\views\\carrera\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9ADB5AF9-5935-4D5B-BE85-CA67DF4DEFC0}|Universidad.csproj|solutionrelative:views\\carrera\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,27 +27,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Popi1\\OneDrive\\Documentos\\GitHub\\CursoProgra4\\TrabajosClase\\Universidad\\Views\\Carrera\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Carrera\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Popi1\\OneDrive\\Documentos\\GitHub\\CursoProgra4\\TrabajosClase\\Universidad\\Views\\Carrera\\Index.cshtml",
-              "RelativeToolTip": "Views\\Carrera\\Index.cshtml",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAAAMAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-20T04:30:52.861Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Popi1\\OneDrive\\Documentos\\GitHub\\CursoProgra4\\TrabajosClase\\Universidad\\Views\\Carrera\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Carrera\\Create.cshtml",
               "ToolTip": "C:\\Users\\Popi1\\OneDrive\\Documentos\\GitHub\\CursoProgra4\\TrabajosClase\\Universidad\\Views\\Carrera\\Create.cshtml",
               "RelativeToolTip": "Views\\Carrera\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-20T04:30:52.105Z",
+              "WhenOpened": "2025-06-20T04:52:22.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Popi1\\OneDrive\\Documentos\\GitHub\\CursoProgra4\\TrabajosClase\\Universidad\\Views\\Carrera\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Carrera\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Popi1\\OneDrive\\Documentos\\GitHub\\CursoProgra4\\TrabajosClase\\Universidad\\Views\\Carrera\\Index.cshtml",
+              "RelativeToolTip": "Views\\Carrera\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-20T04:52:18.826Z",
               "EditorCaption": ""
             }
           ]
