@@ -1,0 +1,59 @@
+﻿@model IEnumerable<Universidad.Models.Carrera>
+
+@{
+    ViewData["Title"] = "Carreras";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Crear Nueva Carrera</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Facultad)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NombreCarrera)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Certificacion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Sede)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Facultad)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NombreCarrera)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Certificacion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Sede)
+            </td>
+            <td>
+                @Html.ActionLink("Editar", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Detalles", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Eliminar", "Delete", new { /* id=item.PrimaryKey */ })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
