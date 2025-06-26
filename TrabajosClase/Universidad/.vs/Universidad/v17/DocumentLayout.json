@@ -3,12 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\Popi1\\OneDrive\\Documentos\\GitHub\\CursoProgra4\\TrabajosClase\\Universidad\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9ADB5AF9-5935-4D5B-BE85-CA67DF4DEFC0}|Universidad.csproj|c:\\users\\popi1\\onedrive\\documentos\\github\\cursoprogra4\\trabajosclase\\universidad\\views\\carrera\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9ADB5AF9-5935-4D5B-BE85-CA67DF4DEFC0}|Universidad.csproj|solutionrelative:views\\carrera\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Popi1\\OneDrive\\Documentos\\GitHub\\CursoProgra4\\Tareas\\Tarea1.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9ADB5AF9-5935-4D5B-BE85-CA67DF4DEFC0}|Universidad.csproj|c:\\users\\popi1\\onedrive\\documentos\\github\\cursoprogra4\\trabajosclase\\universidad\\views\\carrera\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9ADB5AF9-5935-4D5B-BE85-CA67DF4DEFC0}|Universidad.csproj|solutionrelative:views\\carrera\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ADB5AF9-5935-4D5B-BE85-CA67DF4DEFC0}|Universidad.csproj|c:\\users\\popi1\\onedrive\\documentos\\github\\cursoprogra4\\trabajosclase\\universidad\\views\\carrera\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9ADB5AF9-5935-4D5B-BE85-CA67DF4DEFC0}|Universidad.csproj|solutionrelative:views\\carrera\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,11 +21,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Tarea1.html",
+              "DocumentMoniker": "C:\\Users\\Popi1\\OneDrive\\Documentos\\GitHub\\CursoProgra4\\Tareas\\Tarea1.html",
+              "RelativeDocumentMoniker": "..\\..\\Tareas\\Tarea1.html",
+              "ToolTip": "C:\\Users\\Popi1\\OneDrive\\Documentos\\GitHub\\CursoProgra4\\Tareas\\Tarea1.html",
+              "RelativeToolTip": "..\\..\\Tareas\\Tarea1.html",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAGwAAACcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-06-26T06:10:07.923Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -32,20 +48,20 @@
               "RelativeDocumentMoniker": "Views\\Carrera\\Create.cshtml",
               "ToolTip": "C:\\Users\\Popi1\\OneDrive\\Documentos\\GitHub\\CursoProgra4\\TrabajosClase\\Universidad\\Views\\Carrera\\Create.cshtml",
               "RelativeToolTip": "Views\\Carrera\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAABoAAABlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-20T04:52:22.127Z",
+              "WhenOpened": "2025-06-26T05:43:28.921Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Popi1\\OneDrive\\Documentos\\GitHub\\CursoProgra4\\TrabajosClase\\Universidad\\Views\\Carrera\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Carrera\\Index.cshtml",
               "ToolTip": "C:\\Users\\Popi1\\OneDrive\\Documentos\\GitHub\\CursoProgra4\\TrabajosClase\\Universidad\\Views\\Carrera\\Index.cshtml",
               "RelativeToolTip": "Views\\Carrera\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-06-20T04:52:18.826Z",
               "EditorCaption": ""

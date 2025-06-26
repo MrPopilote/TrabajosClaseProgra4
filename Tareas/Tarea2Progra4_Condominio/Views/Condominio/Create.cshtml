@@ -1,0 +1,131 @@
+﻿@model Tarea2Progra4_Condominio.Models.Condominio
+
+@{
+    ViewData["Title"] = "Agregar nuevos condominios";
+}
+
+<h1>Registro de Propiedades:</h1>
+
+<h4>Condominio</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group">
+                <label asp-for="IdCondominio" class="control-label">ID</label>
+                <input asp-for="IdCondominio" class="form-control" type="number" required />
+                <span asp-validation-for="IdCondominio" class="text-danger"></span>
+            </div>
+            <br /><br />
+            <div class="form-group">
+                <label asp-for="NombreDuenno" class="control-label">Nombre del dueño:</label>
+                <input asp-for="NombreDuenno" class="form-control" type="text" required placeholder="Digite el nombre del dueño" style="font-size: 16px; width: 500px;" />
+                <span asp-validation-for="NombreDuenno" class="text-danger"></span>
+            </div>
+            <br /><br />
+            <div class="form-group">
+                <label asp-for="Identificador" class="control-label">Cédula:</label>
+                <input asp-for="Identificador" class="form-control" type="number" required placeholder="Digite su cédula" style="font-size: 16px; width: 500px;" />
+                <span asp-validation-for="Identificador" class="text-danger"></span>
+            </div>
+            <br /><br />
+            <div class="form-group">
+                <label asp-for="PrecioDolares" class="control-label">Precio en dolares ($):</label>
+                <input asp-for="PrecioDolares" class="form-control" type="number" required placeholder="Establezca un precio a la propiedad en $" style="font-size: 16px; width: 500px;" />
+                <span asp-validation-for="PrecioDolares" class="text-danger"></span>
+            </div>
+            <br /><br />
+            <div class="form-group">
+                <label class="control-label">¿La propiedad se encuentra en remate?</label>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="EstadoRemate" value="true" required />
+                    <label class="form-check-label">Sí</label>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="EstadoRemate" value="false" required />
+                    <label class="form-check-label">No</label>
+                </div>
+
+                <span asp-validation-for="EstadoRemate" class="text-danger"></span>
+            </div>
+            <br /><br />
+            <div class="form-group">
+                <label asp-for="CantidadMetros" class="control-label">Tamaño de la propiedad (m<sup>2</sup>):</label>
+                <input asp-for="CantidadMetros" class="form-control" type="number" required placeholder="Establezca un tamaño en metros cuadrados" style="font-size: 16px; width: 500px;" />
+                <span asp-validation-for="CantidadMetros" class="text-danger"></span>
+            </div>
+            <br /><br />
+            <fieldset class="form-group">
+                <legend class="col-form-label pt-0">Comodidades de la propiedad</legend>
+
+                <div class="form-check">
+                    <input class="form-check-input" asp-for="TieneGaraje" />
+                    <label class="form-check-label" for="TieneGaraje">Garaje</label>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" asp-for="TienePiscina" />
+                    <label class="form-check-label" for="TienePiscina">Piscina</label>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" asp-for="TieneJardin" />
+                    <label class="form-check-label" for="TieneJardin">Jardín</label>
+                </div>
+            </fieldset>
+            <br /><br />
+            <div class="form-group">
+                <label asp-for="TelefonoContacto" class="control-label">Teléfono de contacto:</label>
+                <input asp-for="TelefonoContacto" class="form-control" type="tel" required placeholder="Digite su número de teleféfono" style="font-size: 16px; width: 500px;" />
+                <span asp-validation-for="TelefonoContacto" class="text-danger"></span>
+            </div>
+            <br /><br />
+            <div class="form-group">
+                <label asp-for="Correo" class="control-label">Correo electrónico:</label>
+                <input asp-for="Correo" class="form-control" type="email" required placeholder="Digite su dirección de correo electrónico" style="font-size: 16px; width: 500px;" />
+                <span asp-validation-for="Correo" class="text-danger"></span>
+            </div>
+            <br /><br />
+            <div class="form-group">
+                <label asp-for="Provincia" class="control-label">Provincia</label>
+                <select asp-for="Provincia" class="form-control" required style="font-size: 16px; width: 250px; height: 40px;">
+                    <option value="">-- Seleccione una provincia --</option>
+                    <option value="San José">San José</option>
+                    <option value="Alajuela">Alajuela</option>
+                    <option value="Cartago">Cartago</option>
+                    <option value="Heredia">Heredia</option>
+                    <option value="Guanacaste">Guanacaste</option>
+                    <option value="Puntarenas">Puntarenas</option>
+                    <option value="Limón">Limón</option>
+                </select>
+                <span asp-validation-for="Provincia" class="text-danger"></span>
+            </div>
+            <br /><br />
+            <div class="form-group">
+                <label asp-for="DireccionExacta" class="control-label">Dirección exacta</label>
+                <textarea asp-for="DireccionExacta" class="form-control" rows="3" required style="font-size: 16px; width: 500px; height: 100px; resize: none;"></textarea>
+                <span asp-validation-for="DireccionExacta" class="text-danger"></span>
+            </div>
+            <br /><br />
+            <div class="form-group">
+                <input type="submit" value="Crear" class="btn btn-primary" />
+            </div>
+            <br />
+            <div class="form-group">
+                <input type="reset" value="Cancelar" class="btn btn-secondary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Volver</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

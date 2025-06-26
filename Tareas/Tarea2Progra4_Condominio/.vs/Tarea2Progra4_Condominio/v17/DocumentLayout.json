@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Popi1\\OneDrive\\Documentos\\GitHub\\CursoProgra4\\Tareas\\Tarea2Progra4_Condominio\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B4A79EA8-553C-472F-8C3F-907AE49708A4}|Tarea2Progra4_Condominio.csproj|c:\\users\\popi1\\onedrive\\documentos\\github\\cursoprogra4\\tareas\\tarea2progra4_condominio\\views\\condominio\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4A79EA8-553C-472F-8C3F-907AE49708A4}|Tarea2Progra4_Condominio.csproj|solutionrelative:views\\condominio\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4A79EA8-553C-472F-8C3F-907AE49708A4}|Tarea2Progra4_Condominio.csproj|c:\\users\\popi1\\onedrive\\documentos\\github\\cursoprogra4\\tareas\\tarea2progra4_condominio\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4A79EA8-553C-472F-8C3F-907AE49708A4}|Tarea2Progra4_Condominio.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4A79EA8-553C-472F-8C3F-907AE49708A4}|Tarea2Progra4_Condominio.csproj|c:\\users\\popi1\\onedrive\\documentos\\github\\cursoprogra4\\tareas\\tarea2progra4_condominio\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4A79EA8-553C-472F-8C3F-907AE49708A4}|Tarea2Progra4_Condominio.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Popi1\\OneDrive\\Documentos\\GitHub\\CursoProgra4\\Tareas\\Tarea2Progra4_Condominio\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Popi1\\OneDrive\\Documentos\\GitHub\\CursoProgra4\\Tareas\\Tarea2Progra4_Condominio\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-26T07:07:20.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Popi1\\OneDrive\\Documentos\\GitHub\\CursoProgra4\\Tareas\\Tarea2Progra4_Condominio\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Popi1\\OneDrive\\Documentos\\GitHub\\CursoProgra4\\Tareas\\Tarea2Progra4_Condominio\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-26T07:07:18.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Popi1\\OneDrive\\Documentos\\GitHub\\CursoProgra4\\Tareas\\Tarea2Progra4_Condominio\\Views\\Condominio\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Condominio\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Popi1\\OneDrive\\Documentos\\GitHub\\CursoProgra4\\Tareas\\Tarea2Progra4_Condominio\\Views\\Condominio\\Index.cshtml",
+              "RelativeToolTip": "Views\\Condominio\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-26T06:38:06.241Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

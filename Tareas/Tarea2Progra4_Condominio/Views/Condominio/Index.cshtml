@@ -1,0 +1,107 @@
+﻿@model IEnumerable<Tarea2Progra4_Condominio.Models.Condominio>
+
+@{
+    ViewData["Title"] = "Condominios";
+}
+
+<h1>Registro de Condominios</h1>
+
+<p>
+    <a asp-action="Create">Agregar Nuevo</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.IdCondominio)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NombreDuenno)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Identificador)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PrecioDolares)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EstadoRemate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CantidadMetros)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TieneGaraje)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TienePiscina)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TieneJardin)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TelefonoContacto)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Correo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Provincia)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DireccionExacta)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdCondominio)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NombreDuenno)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Identificador)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PrecioDolares)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EstadoRemate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CantidadMetros)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TieneGaraje)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TienePiscina)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TieneJardin)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TelefonoContacto)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Correo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Provincia)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DireccionExacta)
+            </td>
+            <td>
+                    @Html.ActionLink("Editar", "Edit", new { /* id=item.PrimaryKey */ }) |
+                    @Html.ActionLink("Detalles", "Details", new { /* id=item.PrimaryKey */ }) |
+                    @Html.ActionLink("Eliminar", "Delete", new { /* id=item.PrimaryKey */ })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
