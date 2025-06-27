@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Tarea2Progra4_Condominio")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+acf56ae88611a4dcc7c6faaf84651f13f4b31062")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+af9669b64d7e5bf2d0eda0827ee00cd7ed22b9fb")]
 [assembly: System.Reflection.AssemblyProductAttribute("Tarea2Progra4_Condominio")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Tarea2Progra4_Condominio")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

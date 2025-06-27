@@ -21,6 +21,22 @@ namespace Universidad.Models
             return estudiantes.ToArray(); //Devuelve la lista de los estudiantes
         }
 
+        public Estudiante buscarEstudiante(int id) { 
+            var estudianteBuscado = this.estudiantes.FirstOrDefault(x  => x.Id == id);
+            if (estudianteBuscado == null)
+                return estudianteBuscado;
+            else throw new Exception("Ese estudiante no esta registrado");
+        }
+
+        public void eliminarEstudiante(Estudiante estudiante)
+        {
+            this.estudiantes.Remove(estudiante);
+            SaveChanges();
+        }
+
+
+
+
 
         //Metodos 
         public void agregarCarrera(Carrera carrera) {

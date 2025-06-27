@@ -1,0 +1,59 @@
+﻿@model IEnumerable<LondonPerf.Models.Perfume>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Perfumes</h1>
+
+<p>
+    <a asp-action="Create">Crear Nuevo</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Marca)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Modelo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Precio)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Gama)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Marca)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Modelo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Precio)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Gama)
+            </td>
+            <td>
+                @Html.ActionLink("Editar", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Detalles", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Eliminar", "Delete", new {id=item.Id})
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

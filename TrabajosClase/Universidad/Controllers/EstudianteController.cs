@@ -77,7 +77,18 @@ namespace Universidad.Controllers
         // GET: EstudianteController/Delete/5
         public ActionResult Delete(int id)
         {
-            return View();
+            try
+            {
+                var estudianteEliminado = services.buscarEstudiante(id);
+                services.eliminarEstudiante(estudianteEliminado);
+                return RedirectToAction("Index");
+            }
+            catch (Exception)
+            {
+
+                return View();
+            }
+            
         }
 
         // POST: EstudianteController/Delete/5
